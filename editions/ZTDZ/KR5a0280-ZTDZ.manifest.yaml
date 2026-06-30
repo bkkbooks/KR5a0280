@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0280/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0280/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 乾元子三始論
+  date: '2015-08-28 23:44:18.140421'
+  source:
+    repository: kanripo
+    path: KR5a0280
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0280_000-ZTDZ.yaml, hash: 'sha256:a8f8e67c4e472f5a9de7783476e526430c97abfa3c2670982fbd95e7f1045976'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0280_000-ZTDZ.markers.yaml, hash: 'sha256:33c9460c5be52067b9fe4067c72c53ef11953cff423c005ef31fcd68ce750ff5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0280_SJB_000-040912c
+    span:
+    - body
+    - 0
+    - 679
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1ce85e2391ab2718cbf37992a89838ea71501dba5a71fabd9850c853d4aa8bcb
